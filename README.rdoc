@@ -22,6 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+==This is demo tell new railser how to write a rspec in rails
+I spent a lot of time to find a demo to know how to write a simple rspec example,this sample is very easy to read.
 
 
 Please feel free to use a different markup language if you do not plan to run
