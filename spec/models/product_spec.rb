@@ -19,7 +19,7 @@ RSpec.describe Product, type: :model do
       product2 = Product.create(name: "micro" ,price: "10000" ,category: "mobi")
       product3 = Product.create(name: "mic" ,price: "10000" ,category: "bile")
     expected_result = ["bile"]
-    real_result[] = Product.find_product_by("mic")
+    real_result = Product.find_product_by("mic")
     expect(real_result).to eq expected_result
     end		
 
